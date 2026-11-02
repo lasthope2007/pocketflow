@@ -25,7 +25,7 @@ class PocketFlowApp extends StatelessWidget {
         useMaterial3: true,
         colorScheme: scheme,
         scaffoldBackgroundColor: const Color(0xFF101B20),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           color: const Color(0xFF19282E),
           elevation: 0,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(22)),
