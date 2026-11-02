@@ -30,6 +30,7 @@ A Persian-first, offline-first personal finance app for Android. Record daily in
 
 Install Flutter, then run:
 
+    flutter create --platforms=android .
     flutter pub get
     flutter run
 
