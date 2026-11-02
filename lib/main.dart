@@ -1,3 +1,5 @@
+import 'dart:ui' as ui;
+
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:path/path.dart' as path;
@@ -31,7 +33,7 @@ class PocketFlowApp extends StatelessWidget {
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(22)),
         ),
       ),
-      home: const Directionality(textDirection: TextDirection.rtl, child: HomePage()),
+      home: const Directionality(textDirection: ui.TextDirection.rtl, child: HomePage()),
     );
   }
 }
